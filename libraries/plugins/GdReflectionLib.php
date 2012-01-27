@@ -1,4 +1,5 @@
 <?php
+namespace Plugins;
 /**
  * GD Reflection Lib Plugin Definition File
  * 
@@ -176,5 +177,5 @@ class GdReflectionLib
     }
 }
 
-$pt = PhpThumb::getInstance();
-$pt->registerPlugin('GdReflectionLib', 'gd');
+$pt = \PhpThumb::getInstance();
+$pt->registerPlugin('Plugins\\GdReflectionLib', 'gd');

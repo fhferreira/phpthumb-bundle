@@ -1,4 +1,4 @@
 <?php
-Autoloader::map(array(
-	'PhpThumbFactory' => BUNDLE_PATH . 'phpthumb/libraries/ThumbLib.inc.php',
+Autoloader::psr(array(
+	BUNDLE_PATH . 'phpthumb-bundle/libraries'
 ));

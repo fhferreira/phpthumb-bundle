@@ -29,21 +29,8 @@
 
 // define some useful constants
 define('THUMBLIB_BASE_PATH', dirname(__FILE__));
-define('THUMBLIB_PLUGIN_PATH', BUNDLE_PATH . 'phpthumb/libraries/thumb_plugins/');
+define('THUMBLIB_PLUGIN_PATH', BUNDLE_PATH . 'phpthumb-bundle/libraries/plugins/');
 define('DEFAULT_THUMBLIB_IMPLEMENTATION', 'gd');
-
-/**
- * Include the PhpThumb Class
- */
-require_once THUMBLIB_BASE_PATH . '/PhpThumb.inc.php';
-/**
- * Include the ThumbBase Class
- */
-require_once THUMBLIB_BASE_PATH . '/ThumbBase.inc.php';
-/**
- * Include the GdThumb Class
- */
-require_once THUMBLIB_BASE_PATH . '/GdThumb.inc.php';
 
 /**
  * PhpThumbFactory Object
