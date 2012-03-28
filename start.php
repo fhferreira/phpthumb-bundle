@@ -1,4 +1,4 @@
 <?php
 Autoloader::directories(array(
-	path('bundle') . 'phpthumb-bundle/libraries',
+	dirname(__FILE__) . DS . 'libraries',
 ));
