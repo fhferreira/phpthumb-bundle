@@ -29,7 +29,7 @@
 
 // define some useful constants
 define('THUMBLIB_BASE_PATH', dirname(__FILE__));
-define('THUMBLIB_PLUGIN_PATH', BUNDLE_PATH . 'phpthumb-bundle/libraries/plugins/');
+define('THUMBLIB_PLUGIN_PATH', Bundle::path('phpthumb-bundle') . 'libraries/plugins/');
 define('DEFAULT_THUMBLIB_IMPLEMENTATION', 'gd');
 
 /**
